@@ -1,0 +1,162 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="iFtW5zXd1mHppTm4Izev">
+    <mxGraphModel dx="1062" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cfRLwZqxP5G-yTV17Xcj-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="760" width="525" x="155" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Melihat Dashboard" vertex="1">
+          <mxGeometry height="50" width="200" x="190" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Melihat Denah Digital Twin" vertex="1">
+          <mxGeometry height="50" width="200" x="190" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Melihat Grafik Riwayat" vertex="1">
+          <mxGeometry height="50" width="200" x="190" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Melihat Notifikasi Alarm" vertex="1">
+          <mxGeometry height="50" width="200" x="190" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Mengelola Data Zona" vertex="1">
+          <mxGeometry height="50" width="200" x="440" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Mengatur Ambang Batas" vertex="1">
+          <mxGeometry height="50" width="200" x="440" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Melihat Daftar Alarm" vertex="1">
+          <mxGeometry height="50" width="200" x="440" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Mengirim Data Sensor" vertex="1">
+          <mxGeometry height="50" width="200" x="190" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Menentukan Status Zona" vertex="1">
+          <mxGeometry height="50" width="200" x="440" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Mencatat Alarm" vertex="1">
+          <mxGeometry height="50" width="200" x="440" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-16" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Pengelola Gudang&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;PEMANTAU&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="50" x="60" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-18" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Admin&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;PENGELOLA SISTEM&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="50" x="750" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="USE CASE DIAGRAM DTG" vertex="1">
+          <mxGeometry height="50" width="420" x="207.5" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-21" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="55" x="55" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-23" edge="1" parent="1" source="EOFCUIoACA067N4-7gnO-16" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="EOFCUIoACA067N4-7gnO-2" value="">
+          <mxGeometry relative="1" width="80" x="0.7942" as="geometry">
+            <Array as="points">
+              <mxPoint x="167.1470279887801" y="450" />
+            </Array>
+            <mxPoint x="380" y="560" as="sourcePoint" />
+            <mxPoint x="460" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-24" edge="1" parent="1" source="EOFCUIoACA067N4-7gnO-16" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="EOFCUIoACA067N4-7gnO-6" value="">
+          <mxGeometry relative="1" width="80" x="0.7942" as="geometry">
+            <Array as="points">
+              <mxPoint x="272" y="449.0636704119852" />
+            </Array>
+            <mxPoint x="270" y="532" as="sourcePoint" />
+            <mxPoint x="434" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-25" edge="1" parent="1" source="EOFCUIoACA067N4-7gnO-16" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="EOFCUIoACA067N4-7gnO-7" value="">
+          <mxGeometry relative="1" width="80" x="0.7945" as="geometry">
+            <Array as="points">
+              <mxPoint x="150.03840246342293" y="454.020360832616" />
+            </Array>
+            <mxPoint x="130" y="562" as="sourcePoint" />
+            <mxPoint x="294" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-27" edge="1" parent="1" source="EOFCUIoACA067N4-7gnO-16" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="EOFCUIoACA067N4-7gnO-8" value="">
+          <mxGeometry relative="1" width="80" x="0.7942" as="geometry">
+            <Array as="points">
+              <mxPoint x="187" y="488.659793814433" />
+            </Array>
+            <mxPoint x="100" y="692" as="sourcePoint" />
+            <mxPoint x="264" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-31" edge="1" parent="1" source="EOFCUIoACA067N4-7gnO-18" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="EOFCUIoACA067N4-7gnO-10" value="">
+          <mxGeometry relative="1" width="80" x="0.7942" as="geometry">
+            <Array as="points">
+              <mxPoint x="637" y="533.1948881789137" />
+            </Array>
+            <mxPoint x="370" y="662" as="sourcePoint" />
+            <mxPoint x="534" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-32" edge="1" parent="1" source="EOFCUIoACA067N4-7gnO-18" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="EOFCUIoACA067N4-7gnO-11" value="">
+          <mxGeometry relative="1" width="80" x="0.7942" as="geometry">
+            <Array as="points" />
+            <mxPoint x="460" y="702" as="sourcePoint" />
+            <mxPoint x="624" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-33" edge="1" parent="1" source="EOFCUIoACA067N4-7gnO-18" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="EOFCUIoACA067N4-7gnO-12" value="">
+          <mxGeometry relative="1" width="80" x="0.8001" as="geometry">
+            <Array as="points" />
+            <mxPoint x="560" y="702" as="sourcePoint" />
+            <mxPoint x="724" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-34" edge="1" parent="1" source="EOFCUIoACA067N4-7gnO-21" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="EOFCUIoACA067N4-7gnO-13" value="">
+          <mxGeometry relative="1" width="80" x="0.7942" as="geometry">
+            <Array as="points">
+              <mxPoint x="225" y="714.303599374022" />
+            </Array>
+            <mxPoint x="320" y="852" as="sourcePoint" />
+            <mxPoint x="340" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-35" edge="1" parent="1" source="EOFCUIoACA067N4-7gnO-13" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="EOFCUIoACA067N4-7gnO-14" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="340" y="560" as="sourcePoint" />
+            <mxPoint x="500" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-37" edge="1" parent="1" source="EOFCUIoACA067N4-7gnO-15" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="EOFCUIoACA067N4-7gnO-14" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="420" y="746" as="sourcePoint" />
+            <mxPoint x="525" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="LOGIN" vertex="1">
+          <mxGeometry height="60" width="320" x="257.5" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-39" edge="1" parent="1" source="EOFCUIoACA067N4-7gnO-16" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="EOFCUIoACA067N4-7gnO-38" value="">
+          <mxGeometry relative="1" width="80" x="0.7945" as="geometry">
+            <Array as="points">
+              <mxPoint x="262.43902439024373" y="279.2682926829269" />
+            </Array>
+            <mxPoint x="140" y="450" as="sourcePoint" />
+            <mxPoint x="220" y="454" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-40" edge="1" parent="1" source="EOFCUIoACA067N4-7gnO-18" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="EOFCUIoACA067N4-7gnO-38" value="">
+          <mxGeometry relative="1" width="80" x="0.9259" as="geometry">
+            <Array as="points">
+              <mxPoint x="488.3167185962959" y="278.6974998108259" />
+            </Array>
+            <mxPoint x="510" y="330" as="sourcePoint" />
+            <mxPoint x="590" y="334" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Sensor Suhu &amp;amp; Asap&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SISTEM EKSTERNAL&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="55" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="EOFCUIoACA067N4-7gnO-44" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="16" width="60" x="380" y="704" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
