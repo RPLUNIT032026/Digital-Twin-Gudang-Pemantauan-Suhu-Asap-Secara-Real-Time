@@ -45,7 +45,14 @@ Kalau ada zona yang mulai panas atau berasap, kembaran digitalnya langsung berub
 | 7 | 👥 [Use Case Diagram](UML-DIAGRAM/2_Use-Case%20Diagram.drawio.png) | Daftar fitur dan hak akses yang dapat dijalankan oleh aktor (Petugas/Admin Gudang) di dalam aplikasi. |
 | 8 | 🔄 [Activity-Diagram-DTG](UML-DIAGRAM/3_Activity-Diagram-DTG.png) | Alur kerja bertahap dari proses akuisisi sensor, evaluasi ambang batas suhu/asap, hingga pemicuan alarm. |
 | 9 | ⏱️ [sequence-diagram](UML-DIAGRAM/4_sequence-diagram.png) | Urutan komunikasi *real-time* antar komponen (Node IoT, Server, Database, dan Dashboard) berdasarkan garis waktu. |
-| 10 | 🗂️[Class Diagram](https://viewer.diagrams.net/?U=https://raw.githubusercontent.com/RPLUNIT032026/Digital-Twin-Gudang-Pemantauan-Suhu-Asap-Secara-Real-Time/main/UML-DIAGRAM/5_class-diagram.drawio) | Struktur kelas, atribut, metode, serta relasi data pada sistem pemantauan gudang.
+| 10 | 🗂️[Class Diagram.drawio](UML-DIAGRAM/5_class Diagram.drawio.png#### Daftar Kelas Utama:
+- **`Gudang`**: Menyimpan informasi utama bangunan gudang dan referensi denah visual.
+- **`ZonaGudang`**: Merepresentasikan titik/area ruangan pada denah gudang beserta koordinat dan status warnanya (*Normal/Waspada/Bahaya*).
+- **`NodeSensor`**: Merepresentasikan perangkat sensor suhu dan asap yang mengirimkan data telemetri melalui API.
+- **`LogSensor`**: Menyimpan riwayat pembacaan suhu dan asap secara berkala (*time-series*) untuk ditampilkan pada grafik riwayat.
+- **`KonfigurasiThreshold`**: Mengatur batas nilai waspada dan bahaya sebagai dasar evaluasi logika status gudang.
+- **`AlarmInsiden`**: Mencatat kejadian darurat dan mengontrol aktivasi alarm ketika ambang batas terlampaui.
+- **`PetugasGudang`**: Entitas pengguna/admin yang memantau dashboard Digital Twin dan melakukan *acknowledge* (penanganan) saat alarm berbunyi.
 | 11 | 🚦 [State-Diagram-DTG](UML-DIAGRAM/6_State-Diagram-DTG.png) | Siklus perubahan status kondisi gudang (Normal, Waspada, Bahaya) berdasarkan pemicu nilai sensor. |
 | 12 | ☁️ [deployment-diagram](UML-DIAGRAM/7_deployment-diagram.png) | Arsitektur penempatan perangkat keras (Node IoT, Server, Client) dan protokol jaringan yang menghubungkannya. |
 | 13 | 🔌 [component-diagram](UML-DIAGRAM/8_component-diagram.png) | Hubungan modular dan antarmuka (*interface*) antar subsistem *hardware*, *backend*, *database*, dan *frontend*. |
