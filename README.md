@@ -74,9 +74,13 @@ Detail lengkap ada di [System Design](docs/system-design.md).
 
 ---
 
+Detail lengkap ada di [System Design](docs/system-design.md).
+
+---
+
 ## 🗓️ Roadmap
 
-- [x] **Sprint 1** — Perencanaan, desain, dan project setup
+- [x] **[Sprint 1](./docs)** — [Perencanaan](./docs), [desain (UML)](./UML-DIAGRAM), dan project setup
 - [ ] **Sprint 2** — API sensor dan logika status
 - [ ] **Sprint 3** — Dashboard denah gudang dan grafik riwayat
 - [ ] **Sprint 4** — Alarm, pengujian, dan **Product Release**
