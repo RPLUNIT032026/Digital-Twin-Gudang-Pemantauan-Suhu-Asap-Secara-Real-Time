@@ -41,7 +41,14 @@ Kalau ada zona yang mulai panas atau berasap, kembaran digitalnya langsung berub
 | 3 | 📝 [Product Backlog & Sprint 1 Backlog](docs/product-backlog.md) | User story dan target pekerjaan |
 | 4 | 🧩 [System Design](docs/system-design.md) | Arsitektur, flowchart, dan ERD |
 | 5 | 🎨 [Desain UI/UX](docs/ui-design.md) | Wireframe, palet warna, dan alur pengguna |
-| 6 | 🧩 [context-diagram](UML-DIAGRAM/1_context-diagram.png) | Wireframe, palet warna, dan alur pengguna |
+| 6 | 🧩 [context-diagram](UML-DIAGRAM/1_context-diagram.png) | Gambaran batas sistem secara umum serta aliran data antara perangkat sensor, sistem Digital Twin, dan pengguna. |
+| 7 | 🧩 [context-diagram](UML-DIAGRAM/1_context-diagram.png) | Gambaran batas sistem secara umum serta aliran data antara perangkat sensor, sistem Digital Twin, dan pengguna. |
+| 8 | 🧩 [context-diagram](UML-DIAGRAM/1_context-diagram.png) | Gambaran batas sistem secara umum serta aliran data antara perangkat sensor, sistem Digital Twin, dan pengguna. |
+| 9 | 🧩 [context-diagram](UML-DIAGRAM/1_context-diagram.png) | Gambaran batas sistem secara umum serta aliran data antara perangkat sensor, sistem Digital Twin, dan pengguna. |
+| 10 | 🧩 [context-diagram](UML-DIAGRAM/1_context-diagram.png) | Gambaran batas sistem secara umum serta aliran data antara perangkat sensor, sistem Digital Twin, dan pengguna. |
+| 11 | 🧩 [context-diagram](UML-DIAGRAM/1_context-diagram.png) | Gambaran batas sistem secara umum serta aliran data antara perangkat sensor, sistem Digital Twin, dan pengguna. |
+| 12 | 🧩 [context-diagram](UML-DIAGRAM/1_context-diagram.png) | Gambaran batas sistem secara umum serta aliran data antara perangkat sensor, sistem Digital Twin, dan pengguna. |
+| 13 | 🧩 [context-diagram](UML-DIAGRAM/1_context-diagram.png) | Gambaran batas sistem secara umum serta aliran data antara perangkat sensor, sistem Digital Twin, dan pengguna. |
 ---
 
 ## 📁 Struktur Repository
