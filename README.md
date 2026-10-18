@@ -41,7 +41,7 @@ Kalau ada zona yang mulai panas atau berasap, kembaran digitalnya langsung berub
 | 3 | 📝 [Product Backlog & Sprint 1 Backlog](docs/product-backlog.md) | User story dan target pekerjaan |
 | 4 | 🧩 [System Design](docs/system-design.md) | Arsitektur, flowchart, dan ERD |
 | 5 | 🎨 [Desain UI/UX](docs/ui-design.md) | Wireframe, palet warna, dan alur pengguna |
-| 6 | 🧩 [context-diagram](UML-DIAGRAM/1.context-diagram.png) | Wireframe, palet warna, dan alur pengguna |
+| 6 | 🧩 [context-diagram](UML-DIAGRAM/context-diagram.png) | Wireframe, palet warna, dan alur pengguna |
 ---
 
 ## 📁 Struktur Repository
