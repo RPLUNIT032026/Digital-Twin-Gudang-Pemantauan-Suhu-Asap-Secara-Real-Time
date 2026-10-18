@@ -42,7 +42,7 @@ Kalau ada zona yang mulai panas atau berasap, kembaran digitalnya langsung berub
 | 4 | 🧩 [System Design](docs/system-design.md) | Arsitektur, flowchart, dan ERD |
 | 5 | 🎨 [Desain UI/UX](docs/ui-design.md) | Wireframe, palet warna, dan alur pengguna |
 | 6 | 🌐 [context-diagram](UML-DIAGRAM/1_context-diagram.png) | Gambaran batas sistem secara umum serta aliran data antara perangkat sensor, sistem Digital Twin, dan pengguna. |
-| 7 | 👥 [Use-Case Diagram.drawio](UML-DIAGRAM/2_Use-Case Diagram.drawio.png) | Daftar fitur dan hak akses yang dapat dijalankan oleh aktor (Petugas/Admin Gudang) di dalam aplikasi. |
+| 7 | 👥 [Use-Case Diagram.drawio](UML-DIAGRAM/2_Use-Case Diagram.png) | Daftar fitur dan hak akses yang dapat dijalankan oleh aktor (Petugas/Admin Gudang) di dalam aplikasi. |
 | 8 | 🔄 [Activity-Diagram-DTG](UML-DIAGRAM/3_Activity-Diagram-DTG.png) | Alur kerja bertahap dari proses akuisisi sensor, evaluasi ambang batas suhu/asap, hingga pemicuan alarm. |
 | 9 | ⏱️ [sequence-diagram](UML-DIAGRAM/4_sequence-diagram.png) | Urutan komunikasi *real-time* antar komponen (Node IoT, Server, Database, dan Dashboard) berdasarkan garis waktu. |
 | 10 | 🗂️ [class-diagram](UML-DIAGRAM/5_class-diagram.drawio) | Struktur kelas, atribut, metode, serta relasi data pada sistem pemantauan gudang |
