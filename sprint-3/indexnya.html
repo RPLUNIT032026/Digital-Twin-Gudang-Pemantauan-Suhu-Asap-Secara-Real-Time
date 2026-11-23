@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WareTwin — Dashboard Digital Twin Gudang</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+
+<header class="glass">
+  <span class="logo">🏭</span>
+  <h1>WareTwin<small>Digital Twin Gudang · Suhu &amp; Asap</small></h1>
+  <span class="sp"></span>
+  <span class="pill" id="mode"><i class="dot"></i><span id="modeTxt">Menghubungkan…</span></span>
+  <span class="pill" id="clock" style="font-weight:500">--:--:--</span>
+  <button class="btn" id="btnAuto">⟳ Putar otomatis</button>
+  <button class="btn" id="btnDemo">Mode Demo</button>
+</header>
+
+<div id="banner"></div>
+
+<aside id="left" class="glass">
+  <h2>Zona Gudang</h2>
+  <div id="zones"></div>
+</aside>
+
+<aside id="right" class="glass">
+  <h2>Ringkasan</h2>
+  <div class="stats">
+    <div class="stat a"><b id="nA">0</b><span>Aman</span></div>
+    <div class="stat w"><b id="nW">0</b><span>Waspada</span></div>
+    <div class="stat b"><b id="nB">0</b><span>Bahaya</span></div>
+  </div>
+  <h2 style="margin-top:6px">Alarm Terbaru</h2>
+  <div id="alarms"></div>
+  <div class="sp"></div>
+  <div id="demoBox">
+    <h2 style="color:#fbbf24">Kontrol Simulasi</h2>
+    <label>Paksa kondisi sebuah zona (untuk demo):</label>
+    <select id="selZone"></select>
+    <div class="row3">
+      <button class="btn g" data-f="AMAN">Aman</button>
+      <button class="btn y" data-f="WASPADA">Waspada</button>
+      <button class="btn r" data-f="BAHAYA">Bahaya</button>
+    </div>
+    <button class="btn" data-f="AUTO">↺ Kembali otomatis</button>
+  </div>
+  <div class="legend">
+    <span><i style="background:#34d399"></i>Aman</span>
+    <span><i style="background:#fbbf24"></i>Waspada</span>
+    <span><i style="background:#f87171"></i>Bahaya</span>
+  </div>
+</aside>
+
+<div id="hint" class="glass">Seret = putar · Scroll / cubit = zoom · Klik zona = detail</div>
+
+<script src="three.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
